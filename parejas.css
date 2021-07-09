@@ -1,0 +1,172 @@
+body {
+    text-align: center;
+    min-width: 1225px;
+    background-color: beige;
+}
+
+
+h1 {
+    font-style: oblique;
+    font-family: fantasy;
+    padding-top: 40px;
+    transition: all 2s ease-in-out;
+}
+
+p {
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    color: rgb(102, 28, 28);
+    text-shadow: 1px 1px rgb(0, 0, 0, 0.5);
+}
+
+span {
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 30px;
+    color: rgb(155, 152, 152);
+    text-shadow: 1px 1px rgb(0, 0, 0, 0.5);
+
+}
+
+.header {
+    min-width: 500px;
+    width: 50%;
+    background-image: linear-gradient(to right, rgb(250, 160, 150), rgb(216, 97, 12));
+    text-align: center;
+    min-height: 150px;
+    margin-left: 20%;
+    margin-right: 25%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.5);
+}
+
+.cabecera {
+    color: silver;
+    text-shadow: 3px 3px red;
+
+}
+
+.victory {
+    font-size: 60px;
+    color: blue;
+    text-shadow: 4px 4px black;
+    -webkit-transform: rotateY(360deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+}
+
+.board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    min-width: 885px;
+    background-image: linear-gradient(to right, rgb(79, 126, 89), rgb(4, 78, 35));
+    margin-left: 10%;
+    min-height: 300px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.5);
+}
+
+
+.card {
+    width: 98px;
+    height: 150px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+
+    border-style: groove;
+    border-color: silver;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(148, 5, 5, 0.8);
+    transition: all 1s ease-in-out;
+    margin-left: 5px;
+}
+
+.card:not(.reveal) {
+    background-image: url("Imagenes/reversoCarta.jpg");
+}
+
+.reveal {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+.reveal.red {
+    background-image: url("Imagenes/Cuco.jpg");
+}
+
+.reveal.blue {
+    background-image: url("Imagenes/ganan.jpg");
+}
+
+.reveal.yellow {
+    background-image: url("Imagenes/ricardito.jpg");
+}
+
+.reveal.brown {
+    background-image: url("Imagenes/cuatroOjos.jpg");
+}
+
+.reveal.orange {
+    background-image: url("Imagenes/feo1.jpg");
+}
+
+.reveal.dark {
+    background-image: url("Imagenes/feo2.jpg");
+}
+
+.reveal.green {
+    background-image: url("Imagenes/feo3.jpg");
+}
+
+.reveal.pink {
+    background-image: url("Imagenes/feo4.jpg");
+}
+
+.reveal.black {
+    background-image: url("Imagenes/paleto1.jpg");
+}
+
+.reveal.violet {
+    background-image: url("Imagenes/paleto2.jpg");
+}
+
+.reveal.purple {
+    background-image: url("Imagenes/paleto3.jpg");
+}
+
+.reveal.marine {
+    background-image: url("Imagenes/paleto4.jpg");
+}
+
+.contadores {
+    text-align: center;
+}
+
+.choiceButton {
+    height: 40px;
+    width: 100px;
+    margin: 30px;
+    margin-left: 15%;
+    background-color: grey;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 30px;
+    color: rgb(241, 233, 233);
+    text-shadow: 1px 1px rgb(0, 0, 0, 0.5);
+}
+
+.choiceButton:hover {
+    background-color: rgb(156, 155, 155);
+}
+
+.span1 {
+    margin-left: 20%;
+}
